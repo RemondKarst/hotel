@@ -23,6 +23,7 @@ public class PersonService {
 		List<Person> people =new ArrayList<>();
 		Person remond = new Person();
 		remond.setVoornaam("Remond");
+		remond.setLastname("Karst");
 		people.add(remond);
 		Response response = Response.ok().entity(people).build();
 		return response;
